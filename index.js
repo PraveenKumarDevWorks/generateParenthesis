@@ -16,3 +16,26 @@ console.log(generateParenthesis(2)) // Output: ["(())", "()()"]
 console.log(generateParenthesis(3)) // Output: ["((()))", "(()())", "(())()", "()(())", "()()()"]
 console.log(generateParenthesis(4)) // Output: ["(((())))", "((()()))", "((())())", "((()))()", "(()(()))", "(()()())", "(()())()", "(())(())", "(())()()", "()((()))", "()(()())", "()()(())", "()()()()"]
 console.log(generateParenthesis(5)) // Output: ["((((()))))", "(((()())))", "((()()))()", "((())())()", "((()))()()", "(()((())))", "(()(()()))", "(()()(())", "(()()())()", "(()())()()", "(())((()))", "(())(()())", "(())()(())", "(())()()()", "()(((())))", "()((()()))", "()(()())()", "()()(())()", "()()()()()"]
+
+// pattern name  = "Generate Parentheses";
+// pattern description = "Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.";
+// pattern difficulty = "Medium";
+// pattern tags = ["Backtracking", "String", "Recursion"];
+// pattern code = "javascript";
+// pattern codeSnippet = generateParenthesis.toString();
+// pattern example = {
+//     input: "n = 3",
+//     output: '["((()))", "(()())", "(())()", "()(())", "()()()"]'
+// };
+// pattern example2 = {
+//     input: "n = 2",
+//     output: '["(())", "()()"]'
+// };
+// pattern example3 = {
+//     input: "n = 4",
+//     output: '["(((())))", "((()()))", "((())())", "((()))()", "(()(()))", "(()()())", "(()())()", "(())(())", "(())()()", "()((()))", "()(()())", "()()(())", "()()()()"]'
+// };
+// pattern example4 = {
+//     input: "n = 5",
+//     output: '["((((()))))", "(((()())))", "((()()))()", "((())())()", "((()))()()", "(()((())))", "(()(()()))", "(()()(())", "(()()())()", "(()())()()", "(())((()))", "(())(()())", "(())()(())", "(())()()()", "()(((())))", "()((()()))", "()(()())()", "()()(())()", "()()()()()"]'
+// };
